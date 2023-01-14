@@ -36,9 +36,10 @@ function criteriaPrompts() {
     availCharacterSet += "0123456789";
   } 
   if (passSpecial) {
-    availCharacterSet += "!@#$%^&*()";
+    availCharacterSet += "!#$%&()*+,-./:;<=>?@[]^_`{|}~";
   } 
 
+  
   //Calls the writePassword function once this is complete
   writePassword();
 }
